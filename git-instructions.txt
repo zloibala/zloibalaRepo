@@ -19,13 +19,14 @@ commit - means "save files, and add message"
 git commit -m "message" -commits the files to the local repository 
 git commit --amend - command to change the message of the commit (will open VIM)
 git reset ID_ofthecommit - command to delete commit 
-git reset ID_ofthecommit - command to delete commit 
-git rebase - command 
-git rebase --root
-git branch -a - command to show all exisiting branches 
-git checkout -b "name of the branch" - to create a new branch 
-git checkout - too change branch 
 
+
+
+Git Flow - strategy how all companies work: 
+1. Off a main/master we create a feature branch to the main/master branch
+2. We do our work in the feature branch 
+3. When are we finished we merge the featuer branch to the main master branch 
+4. and thn delete the featuere branch 
  
  IN GIT WE HAVE 3 STAGES:
 
