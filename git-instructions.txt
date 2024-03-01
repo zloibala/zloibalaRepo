@@ -13,7 +13,7 @@ When we run git log, we see:
 3. Author who made commit
 4. Date- when commit was made
 5. commit message- what the commit is about
-git log --oneline - check history
+git log --oneline - check history.
 
 commit - means "save files, and add message" 
 git commit -m "message" -commits the files to the local repository 
