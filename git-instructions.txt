@@ -1,13 +1,25 @@
 git config --global user.name "zloibala"
 git config --global user.email "boronova25@gmail.com"
 
-
+DO NOT FORGET TO SAVE FILES, to save file run "command + s" 
 
 git add . - command that adds new files (code)
 git status - command to check the status of all files
-git log - command to check history of our commint (our saved files)
+
+ggo - command to check history of our commit(our saved files)
+When we run git log, we see:
+1. Commit ID (COMMIT SHA/HASH)
+2.(HEAD-> master or main) it means your bramch that you work on, or last commit.
+3. Author who made commit
+4. Date- when commit was made
+5. commit message- what the commit is about
+git log --oneline - check history
+
 commit - means "save files, and add message" 
 git commit -m "message" -commits the files to the local repository 
+git commit --amend - command to change the message of the commit (will open VIM)
+git reset ID_ofthecommit - command to delete commit 
+
  
  IN GIT WE HAVE 3 STAGES:
 
@@ -19,3 +31,4 @@ git commit -m "message" -commits the files to the local repository
  1. Unmodified 
  2. Modified 
  3. Staged
+
